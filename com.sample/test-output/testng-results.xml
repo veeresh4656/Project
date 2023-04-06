@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[DataBase is connected]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login to the application]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Logout successful]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed ]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login to the application]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Logout successful]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed ]]>
+    </line>
+    <line>
+      <![CDATA[DataBase connection is closed ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-04-06T15:17:06 IST" name="Suite" finished-at="2023-04-06T15:17:26 IST" duration-ms="20318">
+    <groups>
+    </groups>
+    <test started-at="2023-04-06T15:17:06 IST" name="Test" finished-at="2023-04-06T15:17:26 IST" duration-ms="20318">
+      <class name="createAccount.OpenAccountBaseClass">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:createAccount.OpenAccountBaseClass@21e360a]" started-at="2023-04-06T15:17:06 IST" name="configBC" finished-at="2023-04-06T15:17:11 IST" duration-ms="5583" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Login to the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:createAccount.OpenAccountBaseClass@21e360a]" started-at="2023-04-06T15:17:11 IST" name="configBM" finished-at="2023-04-06T15:17:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createAccount()[pri:0, instance:createAccount.OpenAccountBaseClass@21e360a]" started-at="2023-04-06T15:17:11 IST" name="createAccount" finished-at="2023-04-06T15:17:19 IST" duration-ms="7442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:createAccount.OpenAccountBaseClass@21e360a]" started-at="2023-04-06T15:17:19 IST" name="configAM" finished-at="2023-04-06T15:17:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:createAccount.OpenAccountBaseClass@21e360a]" started-at="2023-04-06T15:17:19 IST" name="configAC" finished-at="2023-04-06T15:17:20 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- createAccount.OpenAccountBaseClass -->
+      <class name="ApplyDebitCard.ApplyDebitCardBaseClass">
+        <test-method is-config="true" signature="connectToDB()[pri:0, instance:ApplyDebitCard.ApplyDebitCardBaseClass@543588e6]" started-at="2023-04-06T15:17:05 IST" name="connectToDB" finished-at="2023-04-06T15:17:06 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DataBase is connected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- connectToDB -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:ApplyDebitCard.ApplyDebitCardBaseClass@543588e6]" started-at="2023-04-06T15:17:20 IST" name="configBC" finished-at="2023-04-06T15:17:24 IST" duration-ms="4249" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Login to the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:ApplyDebitCard.ApplyDebitCardBaseClass@543588e6]" started-at="2023-04-06T15:17:24 IST" name="configBM" finished-at="2023-04-06T15:17:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="applyDebitCard()[pri:1, instance:ApplyDebitCard.ApplyDebitCardBaseClass@543588e6]" started-at="2023-04-06T15:17:24 IST" name="applyDebitCard" finished-at="2023-04-06T15:17:25 IST" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyDebitCard -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:ApplyDebitCard.ApplyDebitCardBaseClass@543588e6]" started-at="2023-04-06T15:17:25 IST" name="configAC" finished-at="2023-04-06T15:17:26 IST" duration-ms="737" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:ApplyDebitCard.ApplyDebitCardBaseClass@543588e6]" started-at="2023-04-06T15:17:25 IST" name="configAM" finished-at="2023-04-06T15:17:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:ApplyDebitCard.ApplyDebitCardBaseClass@543588e6]" started-at="2023-04-06T15:17:26 IST" name="configAS" finished-at="2023-04-06T15:17:26 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DataBase connection is closed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- ApplyDebitCard.ApplyDebitCardBaseClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
