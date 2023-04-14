@@ -3,18 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sample.TS_03">
+      <class name="com.sample.SeleniumGridPractise">
         <methods>
-          <include name="testCase5"/>
-          <include name="configAM"/>
-          <include name="connectToDB"/>
-          <include name="configBM"/>
-          <include name="testCase6"/>
-          <include name="configAS"/>
-          <include name="configAC"/>
-          <include name="configBC"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.sample.TS_03 -->
+      </class> <!-- com.sample.SeleniumGridPractise -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
